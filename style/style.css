@@ -1,0 +1,50 @@
+
+
+.banner {
+    padding:50px 1045px 0px 240px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:#6ca2b0;
+}
+
+.pic{
+    width: 635px;
+height: 800px;
+flex-shrink: 0;
+background: url(<path-to-image>)
+50% / cover no-repeat;
+}
+.banner-taitel {
+display: flex;
+width: 708px;
+flex-direction: column;
+flex-shrink: 0;
+
+color: #060606;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.pragraph {
+display: flex;
+width: 634px;
+flex-direction: column;
+flex-shrink: 0;
+
+color:#2b2a2a;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.btn {display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+}
