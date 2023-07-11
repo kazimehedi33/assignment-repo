@@ -46,10 +46,36 @@
 
 
 
+.main{
+    padding:40px 40px 0px 40px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+  
+
+
+
+.header-name {
+    width: 1922px;
+height: 620px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+}
+.pngwing8{
+    width: 318px;
+height: 420px;
+}
+
+
+
+
+
+
 .about{
     width: 1922px;
     height: 620px;
-    flex-shrink: 0;
     border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
 }
@@ -68,8 +94,7 @@ background: rgba(229, 84, 115, 0.05);
     display: flex;
     width: 594px;
     flex-direction: column;
-    flex-shrink: 0;
-    color: rgba(39, 39, 39, 0.60);
+    color: #fff;
 text-align: center;
 font-family: Lato;
 font-size: 18px;
@@ -89,7 +114,6 @@ background: #E55473;
 .photo{
 width: 318px;
 height: 420px;
-flex-shrink: 0;
 
 }
 
@@ -100,7 +124,7 @@ flex-shrink: 0;
     display: flex;
     width: 342px;
 height: 396px;
-flex-shrink: 0;
+gap: 24px;
 margin-right: 240px;
 margin-left: 240px;
 background: #FFF;
@@ -123,4 +147,80 @@ height: 4867px;
     text-align: center;
     font-size: 18px;
    gap: 50px;
+}
+
+.footer-column{
+    width: 1440px;
+height: 449px;
+background-image: url('../imagas/Rectangle\ 9.png');
+}
+
+
+
+.main-style{
+    width: 1440px;
+height: 449px;
+flex-shrink: 0;
+border-radius: 8px;
+background-image: url('../flower asset/Rectangle\ 9.png');
+}
+.style-main{
+    color: #171717;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+#what-i-do-description{
+    color:#E55473;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.bton-primary{
+    width: 400px;
+    height: 55px;
+    border-radius: 10px;
+    background: #827373;
+    margin-right: auto;
+}
+.Subscribe{
+    border-radius: 5px;
+background: #fd6e0a;
+border: 0;
+color: white;
+font-size: 20px;
+font-weight: 700;
+padding: 15px 35px;
+}
+
+
+.main-footer{
+   text-align: center;
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+}
+.FlowerShop{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+  text-align: center;
+    font-weight: 800;
+}
+.content{
+    text-align: center;
+    display: flex;
+    width: 625px;
+    color: rgba(181, 21, 21, 0.9);
+font-family: Lato;
+font-size: 18px;
+
 }
