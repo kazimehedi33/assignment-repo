@@ -61,15 +61,15 @@
      height: 620px;
     flex-shrink: 0;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
+    background:#E554730D;
     display:flex;
     align-items:center;
     justify-content:space-between;
 }
 .pngwing{
     width: 318px;
-height: 420px;
-margin-right: 300px;
+    height: 420px;
+    margin-right: 300px;
 }
 
 
@@ -81,7 +81,7 @@ margin-right: 300px;
     width: 1922px;
     height: 620px;
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
+    background: #E55473;
 }
 .class-about{
     text-align: center;
@@ -99,12 +99,11 @@ background: rgba(229, 84, 115, 0.05);
     width: 594px;
     flex-direction: column;
     color: #fff;
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 .sbout-btn{
    
@@ -116,13 +115,13 @@ line-height: 30px;
 background: #E55473;
 }
 .photo{
-width: 318px;
-height: 420px;
-
+    width: 318px;
+    height: 420px;
 }
-
-
-
+.footer-column{
+    margin-left: 200px;
+    margin-right: 200px;
+}
 
 .skills-container{
     display: flex;
@@ -184,7 +183,6 @@ background-image: url('../flower asset/Rectangle\ 9.png');
     text-align: center;
     font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
 }
@@ -211,7 +209,6 @@ padding: 15px 35px;
    width: 1922px;
    height: 449px;
     background: #2f2a2a;
-   
 }
 
 .FlowerShop{
@@ -219,7 +216,6 @@ padding: 15px 35px;
     font-family: Lato;
     font-size: 70px;
   text-align: center;
-    font-weight:;
 }
 .content{
     text-align: center;
@@ -227,9 +223,8 @@ padding: 15px 35px;
     width: 625px;
     margin-right: 440px;
     color:#e2e2e2;
-
-font-family: Lato;
-font-size: 18px;
+    font-family: Lato;
+    font-size: 18px;
 
 }
 .senter{
