@@ -45,7 +45,6 @@
 
 
 
-
 .main{
     padding:40px 40px 0px 40px;
     display:flex;
@@ -57,13 +56,16 @@
 
 
 .header-name {
-    width: 1922px;
-height: 620px;
-flex-shrink: 0;
-border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
+     width: 1922px;
+     height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
-.pngwing8{
+.pngwing{
     width: 318px;
 height: 420px;
 }
@@ -220,6 +222,7 @@ padding: 15px 35px;
     display: flex;
     width: 625px;
     color: rgba(181, 21, 21, 0.9);
+
 font-family: Lato;
 font-size: 18px;
 
